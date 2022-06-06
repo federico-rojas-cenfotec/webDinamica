@@ -1,0 +1,24 @@
+.postListComponent {
+    position: fixed;
+    top: var(--nav-bar-height);
+    width: 100vw;
+    height: calc(100vh - var(--nav-bar-height));
+    /* left: 100px; con esta instrucción ya el postListComponent se muestra parcialmente encima del userListComponent */
+}
+
+.postListComponent_fade {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    pointer-events: all;
+}
+
+.postListComponent_dataContainer {
+    position: fixed;
+    width: 100%;
+    height: calc(100vh - var(--nav-bar-height));
+    background-color: var(--main-background-color);
+    overflow: scroll;
+}

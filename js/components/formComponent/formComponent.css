@@ -1,0 +1,60 @@
+.formComponent {
+    position: fixed;
+    top: var(--nav-bar-height);
+    width: 100vw;
+    height: calc(100vh - var(--nav-bar-height));
+    /* left: 100px; con esta instrucción ya el postListComponent se muestra parcialmente encima del userListComponent */
+}
+
+.formComponent_fade {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    pointer-events: all;
+}
+
+.formComponent_dataContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-background-color);
+    /* overflow: scroll; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formComponent_header {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.formComponent_input {
+    background-color: var(--navBarColor);
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.formComponent_createBtn {
+    width: 60%;
+    height: 40px;
+    background-color: var(--addNewCommentBtn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.formComponent_error {
+    border: 1px solid red;
+}

@@ -1,0 +1,86 @@
+.formUserComponent {
+    position: fixed;
+    top: var(--nav-bar-height);
+    width: 100vw;
+    height: calc(100vh - var(--nav-bar-height));
+    /* left: 100px; con esta instrucción ya el postListComponent se muestra parcialmente encima del userListComponent */
+}
+
+.formUserComponent_fade {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    pointer-events: all;
+}
+
+.formUserComponent_dataContainer {
+    position: fixed;
+    width: 100%;
+    height: calc(100vh - var(--nav-bar-height));
+    background: rgb(238, 183, 58);
+    background: linear-gradient(180deg, rgba(238, 183, 58, 1) 0.1%, rgba(255, 255, 255, 1) 95%);
+    /*     overflow: scroll; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formUserComponentEachInput {
+    width: 60%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.formUserComponentDivTitulo {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.formUserComponentInput {
+    background-color: var(--navBarColor);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+}
+
+.formUserComponentBtnEnviar {
+    color: black;
+    background-color: var(--addNewCommentBtn);
+    width: 200px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.formUserComponentBtnSalir {
+    color: black;
+    background-color: var(--addNewCommentBtn);
+    width: 125px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.p {
+    font-size: 20px;
+    font-weight: bold;
+}

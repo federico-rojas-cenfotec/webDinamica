@@ -1,0 +1,40 @@
+.postComponent {
+    background-color: #ECEFF1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: calc(100%-5px);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.postComponent_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 5px 0px 5px;
+}
+
+.postComponent_body {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 10px 5px 0px 5px;
+}
+
+.postComponent_comments_container {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.postComponent_addBtn {
+    width: 100%;
+    height: 40px;
+    background-color: var(--addNewCommentBtn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}

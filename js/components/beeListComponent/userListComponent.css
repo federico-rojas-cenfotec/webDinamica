@@ -1,0 +1,27 @@
+.userListComponent {
+    position: fixed;
+    height: calc(100vh - var(--nav-bar-height));
+    width: 100vw;
+    background-color: var(--main-background-color);
+    top: var(--nav-bar-height);
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.userListComponent_containerBtnUser {
+    display: flex;
+    justify-content: center;
+}
+
+.userListComponent_btnUser {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 10px 5px 5px 5px;
+}

@@ -1,0 +1,53 @@
+.navbarComponent {
+    position: fixed;
+    background-color: var(--navBarColor);
+    width: 100%;
+    height: var(--nav-bar-height);
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.contenerBtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarComponent_backBtn {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.navbarComponent_backBtnIcon {
+    width: 100%;
+    height: auto;
+}
+
+.navbarComponent_addBtn {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.navbarComponent_addBtnIcon {
+    width: 100%;
+    height: auto;
+}
+
+.logoBee {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoBeeIcon {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
